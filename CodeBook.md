@@ -68,8 +68,7 @@ tBodyGyroJerkMean
 ### II) Data
 Quoted from the README.txt file included in the source zip file.
 
-The dataset includes the following files:
-=========================================
+####The dataset includes the following files:
 
 - 'README.txt'
 
@@ -97,8 +96,7 @@ The following files are available for the train and test data. Their description
 
 - 'train/Inertial Signals/body_gyro_x_train.txt': The angular velocity vector measured by the gyroscope for each window sample. The units are radians/second. 
 
-Notes: 
-======
+####Notes: 
 - Features are normalized and bounded within [-1,1].
 - Each feature vector is a row on the text file.
 
@@ -114,16 +112,16 @@ Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity 
 and each subject.
 
-The steps are as follows:
-1) Download the trial file into your working directory's data folder
-2) Install and load required r packages
-3) Read & combine trial subject & trial activity label files
-4) Add human-friendly lables for trial activities.
-5) Identify trial measurements of the mean and standard deviation.
-6) Read, name & subset the trial measurements
-7) Add measurement data to trial classification data
-8) REPEAT THE STEPS ABOVE, BUT USING THE TEST DATASET
-9) Merge training and test sets
-10) Melt data to convert from wide format to long format
-11) dcast to create tidy data set with the average of each variable for each activity and each subject.
-12) Write tidy data to file called "tidyData.txt"
+The steps are as follows:  
+1 Download the trial file into your working directory's data folder  
+2 Install and load required r packages  
+3 Read & combine trial subject & trial activity label files  
+4 Add human-friendly lables for trial activities  
+5 Identify trial measurements of the mean and standard deviation  
+6 Read, name & subset the trial measurements  
+7 Add measurement data to trial classification data  
+8 REPEAT THE STEPS ABOVE, BUT USING THE TEST DATASET  
+9 Merge training and test sets  
+10 Melt data to convert from wide format to long format  
+11 dcast to create tidy data set with the average of each variable for each activity and each subject  
+12 Write tidy data to file called "tidyData.txt"  
